@@ -1,0 +1,8 @@
+root_dir: '/app'
+batch_size: 16  # reduce on crash, increase for speed
+random_seed: 339
+model_dir: 'models' # set to '' if model is stored in root directory
+model_file_name: 'food-classifier-20220124_2303'
+input_images_folder: 'imagery/testing'
+image_resize_width: 256
+image_resize_height: 256
